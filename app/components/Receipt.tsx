@@ -138,7 +138,7 @@ export default function Receipt({ onBack, onTransactionSaved }: ReceiptProps) {
         <h2 className="text-2xl font-bold">Dough Joe&apos;s Pizza</h2>
         <p className="text-sm">Mall 1 Gullberg 3 , Lahore</p>
         <p className="text-sm">Phone: 0310 1234567</p>
-        <p className="text-sm font-semibold">NTN: F619611</p>
+        <p className="text-sm font-semibold">NTN: 12345678</p>
       </div>
       <h3 className="text-xl font-bold mb-4 text-center">Receipt</h3>
       <table className="w-full mb-4">
