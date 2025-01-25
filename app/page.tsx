@@ -22,8 +22,8 @@ export default function Home() {
 
   return (
     <OrderProvider>
-      <main className="container mx-auto p-4">
-        <h1 className="text-3xl font-bold mb-4">Dough Joe POS</h1>
+      <main className="container mx-auto p-4 bg-gray-100 min-h-screen">
+        <h1 className="text-4xl font-extrabold mb-6 text-center text-blue-600">Dough Joe POS</h1>
         {showTransactions ? (
           <>
             <TransactionRecords 
@@ -32,7 +32,7 @@ export default function Home() {
             />
             <button
               onClick={() => setShowTransactions(false)}
-              className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+              className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105"
             >
               Back to Menu
             </button>
@@ -54,7 +54,7 @@ export default function Home() {
             </div>
             <button
               onClick={() => setShowTransactions(true)}
-              className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+              className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:scale-105"
             >
               View Transaction Records
             </button>

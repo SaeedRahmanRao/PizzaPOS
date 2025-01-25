@@ -81,7 +81,7 @@ export default function MenuItem({ item }: MenuItemProps) {
       {showDetails && <p className="mt-2 text-sm">{item.details}</p>}
       <button
         onClick={handleAddToOrder}
-        className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+        className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-2"
       >
         Add to Order
       </button>
